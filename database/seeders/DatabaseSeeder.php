@@ -22,15 +22,15 @@ class DatabaseSeeder extends Seeder
             'role' => 'admin',
         ]);
         $userId1 = DB::table('users')->insertGetId([
-            'name' => 'Thanh Binh',
-            'email' => 'thanhbinh2k5@gmail.com',
+            'name' => 'Nguyễn Thế Anh',
+            'email' => 'theanh2k5@gmail.com',
             'password' => Hash::make('12345678'),
             'role' => 'user',
         ]);
         $userId2 = DB::table('users')->insertGetId([
-            'name' => 'Ba Thien',
-            'email' => 'pathin2k5@gmail.com',
-            'password' => Hash::make('bathien332005@'),
+            'name' => 'Bùi Ngọc Tuấn Anh',
+            'email' => 'buingoctuananh2k5@gmail.com',
+            'password' => Hash::make('phuonganh'),
             'role' => 'user',
         ]);
 
