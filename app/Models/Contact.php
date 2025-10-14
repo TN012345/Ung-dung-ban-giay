@@ -3,8 +3,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Blog extends Model
+class Contact extends Model
 {
     use HasFactory;
-    protected $fillable = ['title','content','image','slug'];
+    protected $fillable = ['name','email','subject','message'];
 }
